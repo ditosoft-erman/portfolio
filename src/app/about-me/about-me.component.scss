@@ -1,0 +1,20 @@
+.about-me {
+@apply h-screen;
+
+    .about {
+        
+
+        .about-me-container {
+            @apply font-inter w-2/5 text-white text-left mt-10;
+
+            .title {
+                @apply font-bold text-7xl;
+            }
+
+            .description {
+                
+                @apply italic text-xl pt-4;
+            }
+        }
+    }
+}
