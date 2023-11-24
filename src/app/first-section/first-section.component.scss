@@ -1,0 +1,54 @@
+.gradient-text{
+    background-color: #ffffff;
+    background-image: linear-gradient(45deg, rgba(128,0,0,50.2), rgba(0,0,0,0));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+
+
+
+
+/* MOBILE LARGE XS*/
+@media only screen and (min-width: 414px) {
+    // TODO
+  }
+  
+  /* LAPTOP SMALL SM*/
+  @media only screen and (min-width: 768px) {
+    // TODO
+  }
+  
+  /* TABLET PORTRAIT MD-P */
+  @media only screen and (min-width: 601px) and (max-width: 961px) {
+    // TODO
+  }
+  
+  /* TABLET LANDSCAPE MD-LS */
+  @media only screen and (min-width: 1024px) {
+   
+  }
+  
+  /* LAPTOP LG MAC BOOK */
+  @media only screen and (min-width: 1280px) {
+    // TODO
+  }
+  
+  /* DESKTOP SMALL XL */
+  @media only screen and (min-width: 1536px) {
+    // TODO
+  }
+  
+  /* DESKTOP LARGE 2XL */
+  @media only screen and (min-width: 1920px) {
+    // TODO
+  }
+  
+  /* SMART TV 3XL*/
+  @media only screen and (min-width: 3840px) {
+    // TODO
+  }
+  

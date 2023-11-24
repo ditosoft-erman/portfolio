@@ -3,9 +3,9 @@
 
     .about {
         
-
+        @apply gap-x-10;
         .about-me-container {
-            @apply font-inter w-2/5 text-white text-left mt-10;
+            @apply font-inter w-5/6 h-[25rem]  text-white text-left mt-10;
 
             .title {
                 @apply font-bold text-7xl;
@@ -13,7 +13,7 @@
 
             .description {
                 
-                @apply italic text-xl pt-4;
+                @apply italic text-xl pt-4 ;
             }
         }
     }
