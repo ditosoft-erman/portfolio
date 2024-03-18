@@ -1,0 +1,26 @@
+.about-me {
+    @apply h-screen mx-auto lg:overflow-hidden sm:overflow-hidden;
+    
+        .about {
+            
+            @apply gap-x-10;
+            .about-me-container {
+                @apply font-inter w-5/6 h-[25rem]  text-white text-left mt-10;
+    
+                .title {
+                    @apply font-bold text-6xl flex flex-wrap w-4/5;
+                }
+    
+                .description {
+                    
+                    @apply italic text-xl md:text-base sm:text-base pt-4;
+                }
+
+            }
+        }
+        .footer{
+            @apply m-0 h-8 flex flex-nowrap space-x-10 animate-loop-scroll ml-[-10rem] mt-[10rem] w-full;
+            
+            
+        }
+    }

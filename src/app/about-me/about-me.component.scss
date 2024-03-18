@@ -5,15 +5,15 @@
         
         @apply gap-x-10;
         .about-me-container {
-            @apply font-inter w-5/6 h-[25rem]  text-white text-left mt-10;
+            @apply font-inter w-5/6 h-[25rem]  text-white text-left mt-10 sm:mt-0;
 
             .title {
-                @apply font-bold text-7xl;
+                @apply font-bold text-6xl sm:text-4xl flex flex-wrap;
             }
 
             .description {
                 
-                @apply italic text-xl pt-4 ;
+                @apply italic text-xl md:text-base sm:text-base pt-4;
             }
         }
     }
