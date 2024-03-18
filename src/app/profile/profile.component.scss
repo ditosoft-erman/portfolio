@@ -1,0 +1,43 @@
+.profile {
+    @apply bg-black mx-auto max-h-full ;
+
+    .group {
+       @apply grid grid-cols-1 lg:grid-cols-2;
+    }
+    .header{
+        @apply  w-full flex justify-center items-center;
+    }
+    #pic{
+        @apply flex justify-center  lg:h-80 w-4/5 sm:h-40 sm:w-2/3 mt-5;
+    }
+.person{
+    @apply sm:flex sm:justify-center;
+}
+    #person{
+        @apply w-[30rem] h-[43rem]
+    }
+
+    .gradient-text{
+        background: linear-gradient(90deg, #4AEAB7 0%, rgba(4, 99, 239, 0.79) 115.56%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      
+      }
+
+      .group {
+        
+        .person-info{
+           @apply text-white;
+
+            .title{
+                font-size: 40px;
+                font-weight: bold;
+            }
+
+            .description {
+                @apply italic text-xl md:text-base sm:text-base pt-4;
+            }
+        }
+      }
+}
