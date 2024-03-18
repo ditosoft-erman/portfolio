@@ -1,5 +1,45 @@
-<div class="form-section">
-    <div class="form-section-container">
-        meow
+<div class="form-section bg-black">
+    <div class="form-section-container p-10 grid grid-rows-2">
+        <div class="grid grid-cols-2 ">
+            <div class="title flex text-center items-center w-full text-8xl font-mont font-bold text-white">
+                Thinking for a new project?
+            </div>
+            <div class="image">
+                <img src="../../assets/image/png/camera-hold.png"/>
+            </div>
+        </div>
+        <div class="grid grid-cols-3">
+            <div class=" w-[20rem]  font-mont font-bold">
+                <div class="two-messasge one flex  justify-center">
+                    <div class="message text-white">
+                        GRAM
+                    </div>
+                    <div class="message-second text-red-600">
+                        MEDIA
+                    </div>
+                </div>
+                
+                <div class="email font-mont text-white flex justify-center w-[20rem]  mt-9">
+                    Grammedia&#64;gmail.com
+                </div>
+                <div class="logos flex justify-center w-full mt-12 ">
+                    <div class="box bg-white" *ngFor="let i of icons">
+                        <img [src]="i.image"/>
+                    </div>
+                </div>
+            </div>
+           
+            
+            <div class="two font-mont text-white text-3xl flex flex-col gap-5">
+                <div>Home</div>
+                <div>About Me</div>
+                <div>Profile</div>
+                <div>Contact Us</div>
+            </div>
+
+            <div class="three text-white ">
+            
+            </div>
+        </div>
     </div>
 </div>

@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class FormSectionComponent {
 
+  icons = [
+    {
+      image: "../../assets/image/svg/facebook.svg"
+    },
+
+      {
+        image : "../../assets/image/svg/instagram.svg"
+      },
+
+      {
+        image : "../../assets/image/svg/twitterx.svg"
+      }
+    
+  ]
 }
